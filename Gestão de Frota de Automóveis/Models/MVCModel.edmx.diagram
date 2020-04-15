@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="13eb3a41a8a14650b2e3ae42b537c4a8" Name="Diagram1">
+        <EntityTypeShape EntityType="MVCModel.Contrato" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Despesa" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Fornecedores" Width="1.5" PointX="3" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Kilometros" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Manutençao" Width="1.5" PointX="5.25" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Utilizaçao_Permanente" Width="1.5" PointX="8.25" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Utilizaçao_Temporaria" Width="1.5" PointX="8.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Utilizador" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MVCModel.Viatura" Width="1.5" PointX="2.875" PointY="6.375" IsExpanded="true" />
+        <AssociationConnector Association="MVCModel.FK_Viatura_Contrato" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Despesa_Fornecedores" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Despesa_Viatura" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Kilometros_Viatura" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Manutençao_Viatura" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Utilizaçao_Permanente_Utilizador" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Utilizaçao_Permanente_Viatura" ManuallyRouted="false" />
+        <AssociationConnector Association="MVCModel.FK_Utilizaçao_Temporaria_Utilizador" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
